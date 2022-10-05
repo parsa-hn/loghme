@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa-IR">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../CSS/font/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/main.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/normalize.css">
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Profile</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-light fixed-top">
+        <div class="mx-3">
+            <a class="navbar-brand" href="./restaurant.html">
+                <img class = "myNav-logo" src="../Assets/LOGO.png" alt="logo">
+            </a>
+        </div>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class = "myNav-cartLink" href = "#">
+                    <div>
+                        <span class = "myNav-badgeLabel">
+                            <span class=" myNav-badge">۳</span>
+                        </span>
+                        <i class="flaticon-smart-cart myNav-cart"></i>
+                    </div>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link myNav-account" href="./profileOrders.html">حساب کاربری</a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="nav-link myNav-exit" href="./signup.html">خروج</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <header class = "myHeader">
+        <div class="d-flex align-items-center h-100">
+            
+            <div class="d-flex align-items-center h-50 flex-fill text-right myHeader-right">
+                <i class="flaticon-account myHeader-accountIcon"></i>
+                <label class ="myHeader-name">هومان چمنی</label>
+            </div>
+            <div class="flex-fill text-right myHeader-left">
+                <div class = "d-flex align-items-center">
+                    <i class="flaticon-phone myHeader-leftIcon"></i>
+                    <label class = "myHeader-info">۰۹۳۰۰۳۲۳۲۳۱</label>  
+                </div>
+                <div class = "d-flex align-items-center">
+                    <i class="flaticon-mail myHeader-leftIcon"></i>
+                    <label class = "myHeader-info">hoomonchamani@yahoo.com</label>  
+                </div>
+                <div class = "d-flex align-items-center">
+                    <i class="flaticon-card myHeader-leftIcon"></i>
+                    <label class = "myHeader-info">۱۰۰۰۰۰ تومان</label>  
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="myTabs">
+        <div class="d-flex justify-content-center">
+            <button type="button" class="btn myRightTabButton myNotActiveTab">سفارش ها</button>
+            <button type="button" class="btn myLeftTabButton myActiveTab">افزایش اعتبار</button>
+        </div>
+        <div class="card myMiddleCard myCardBorder">
+            <div class="card-body">
+                <div class="container">
+                    <div class="row justify-content-center myCreditRow">
+                        <div class="col-6">
+                            <input type="text" class="form-control myCreditInp" id="credit" placeholder="میزان افزایش اعتبار">
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn myCreditBtn">افزایش</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="pt-3">© تمامی حقوق مربوط به لقمه است.</div>
+    </div>
+</body>
+</html>
